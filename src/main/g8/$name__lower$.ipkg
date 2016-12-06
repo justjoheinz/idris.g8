@@ -1,0 +1,8 @@
+package $name;format="lower"$
+
+opts = "$opts$"
+
+modules = $name;format="cap"$
+        , Test.$name;format="cap"$
+
+tests = Test.$name;format="cap"$.testMe
