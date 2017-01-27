@@ -1,12 +1,11 @@
-
-
+.DEFAULT_GOAL := build
 
 all: install
 
 install: build
 	idris --install $name;format="lower"$.ipkg
 
-build: 
+build:
 	idris --build $name;format="lower"$.ipkg
 
 test: build
