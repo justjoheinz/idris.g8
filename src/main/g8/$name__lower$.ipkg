@@ -1,4 +1,4 @@
-package $name;format="lower"$
+package $name;format="Camel"$
 
 opts = $opts$
 
