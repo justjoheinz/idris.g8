@@ -1,9 +1,8 @@
-module Test.$name;format="cap"$
+module Test.$name;format="Camel"$
 
-import $name;format="cap"$
+import $name;format="Camel"$
 
 %access export
 
 testMe : IO()
 testMe = putStrLn("Passed")
- 

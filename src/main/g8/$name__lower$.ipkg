@@ -2,7 +2,7 @@ package $name;format="lower"$
 
 opts = $opts$
 
-modules = $name;format="cap"$
-        , Test.$name;format="cap"$
+modules = $name;format="Camel"$
+        , Test.$name;format="Camel"$
 
-tests = Test.$name;format="cap"$.testMe
+tests = Test.$name;format="Camel"$.testMe
